@@ -7,6 +7,7 @@
     "max": 50
   },
   "authentication": {
+    "shouldSetupSuccessRoute": false,
     "secret": "ad3db43368b2bd35cdc8f4075404d72bac1cf3dae429ca19d83df08f90e21360c3ba03c896ebf9f2d81cccd79146b50479309e4f9e39893a4fb8ad88880d695de2ea280351b4f557b0b145b50d77f6271ab8174a05a0285a621889bf4890f0defabda721d422b538848f806cbc60e6e35779e3dfb9aa0c0809f147d14ed3db675c0e4d05b94a9a15fdfed6e88c0d61207cd3142843a08c60cf2860e1c196a553525cfee6488ee8529ed2c00272c0209e605c572a79c1411bd0aaf5aaf7980cbf4e598c82646d7e5a922eaecf1c642e0d94b0dd54dd915add232ac459197e36f18b2b4e7f86a449c2083126d6a7b4c799429bfbd95e9d5d321c0ccfdc692cdeda",
     "strategies": [
       "jwt"
@@ -40,8 +41,6 @@
     "facebook": {
       "clientID": "139762896848998",
       "clientSecret": "e6a08dc43ffb6ec93a424c5455674030",
-      "successRedirect": "/",
-      "callbackURL":"http://localhost:3030/auth/facebook/callback",
       "scope": [
         "public_profile",
         "email"

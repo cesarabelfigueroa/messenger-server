@@ -13,7 +13,7 @@ module.exports = function () {
     logger.debug(`${context.type} app.service('${context.path}').${context.method}()`);
     
     if(typeof context.toJSON === 'function') {
-      logger.debug('Hook Context', JSON.stringify(context, null, '  '));
+     // logger.debug('Hook Context', JSON.stringify(context, null, '  '));
     }
     
     if (context.error) {
